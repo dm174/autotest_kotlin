@@ -46,6 +46,7 @@ fun main() {
 
     val transferFee = calculateTransferFee(accountType, previousTransfers, transferAmount)
 
+
     when {
         transferFee == -1.0 -> println("Превышена максимальная сумма перевода в VK Pay за один раз")
         transferFee == -2.0 -> println("Превышена максимальная сумма переводов в VK Pay в текущем месяце")

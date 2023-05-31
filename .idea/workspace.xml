@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c839c764-9558-423e-8c45-55c200e54f8d" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest1.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/MainKtTest.kt" afterDir="false" />
@@ -92,7 +93,7 @@
       <command value="gradle test jacocoTestReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.Autocode_Kotlin [test jacocoTestReport]">
+  <component name="RunManager" selected="Gradle.Autocode_Kotlin [test jacocoTestRepor]">
     <configuration name="Autocode_Kotlin [MainKtTest jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -214,11 +215,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Gradle.Autocode_Kotlin [test]" />
         <item itemvalue="Gradle.Autocode_Kotlin [test :jacocoTestReport]" />
         <item itemvalue="Gradle.Autocode_Kotlin [MainKtTest jacocoTestReport]" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -245,12 +246,20 @@
       <option name="project" value="LOCAL" />
       <updated>1685517181137</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="+max %">
+      <created>1685520361296</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1685520361296</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="+add" />
-    <option name="LAST_COMMIT_MESSAGE" value="+add" />
+    <MESSAGE value="+max %" />
+    <option name="LAST_COMMIT_MESSAGE" value="+max %" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Autocode_Kotlin$MainKtTest__1_.ic" NAME="MainKtTest (1) Coverage Results" MODIFIED="1685515271846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
