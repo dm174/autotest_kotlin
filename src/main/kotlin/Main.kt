@@ -20,6 +20,7 @@ fun calculateTransferFee(
             }
             return 0.0 // Комиссия 0% для VK Pay
         }
+
         "Mastercard", "Maestro" -> {
             if (previousTransfers >= 300 && previousTransfers <= 75000) {
                 return 0.0 // Комиссия не взымается в рамках акции
@@ -27,11 +28,13 @@ fun calculateTransferFee(
                 return transferAmount * 0.6 / 100 + 20 // 0.6% + 20 рублей комиссия
             }
         }
+
         "Visa", "Мир" -> {
             val transferFee = transferAmount * 0.75 / 100
             val minTransferFee = 35.0
             return maxOf(transferFee, minTransferFee) // Минимум 35 рублей комиссия для карт Visa и Мир
         }
+
         else -> return 1.0 // Комиссия 1.0 (100%) для неизвестного типа карты
     }
 }
