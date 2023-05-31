@@ -1,4 +1,3 @@
-package ru.netology
 fun calculateTransferFee(
     accountType: String = "VK Pay",
     previousTransfers: Double = 0.0,

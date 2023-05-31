@@ -13,8 +13,9 @@ repositories {
 
 dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-test'
-    testImplementation 'junit:junit:4.13.2'
-   // testImplementation 'junit:junit:4.13.1'
+
+    testImplementation 'junit:junit:4.13.1'
+
 }
 
 
@@ -24,5 +25,5 @@ kotlin {
 }
 
 application {
-    mainClassName = 'MainKt'
+    mainClassName = 'MainKtTest'
 }
