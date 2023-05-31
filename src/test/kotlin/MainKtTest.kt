@@ -58,7 +58,7 @@ class MainKtTest {
 
         val main1 = main()
 
-
+    }}
     }
 
     @Test
